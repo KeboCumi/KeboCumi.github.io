@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* navbar css */
+nav {
+    background-color: rgba(235, 114, 130, 0.938);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    /* background-color: blue; */
+    height: 80px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.menu{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+    display: inline; 
+    /* background-color: yellow; */
+    margin: 0 1em;
+    padding: 5px;
+}
+.menu ul li a{
+    /* user-select: none; user ga bisa select */
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover{
+    text-decoration: none;
+    color: rgba(109, 24, 102, 0.698);
+}
+
+.content-home {
+    width: 800px;
+    padding: 1em;
+    margin: 1em auto;
+}
+
+.header-home {    
+    display: flex;
+    justify-content: center;
+}
+
+.image-home {
+    background-image: url(./image/cumiKebo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+
+.image-home2 {
+    background-image: url(./image/cumiKebo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+
+.textcontent-home {
+    /* text-indent: *px; buat masuk ke dalam   */
+    /* text-indent: 100px;  */
+    text-align: justify;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button-click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7em;
+    height: 3em;
+    border-radius: 0.5em;
+    background: rgba(235, 114, 130, 0.938);
+}
+
+.button-click a{
+    text-decoration: none;
+    color: black;
+}
+
+.button-click:hover{
+    background-color: rgba(235, 114, 130, 0.712);
+}
+
