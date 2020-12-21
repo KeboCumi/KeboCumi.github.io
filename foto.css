@@ -28,16 +28,23 @@ nav {
 
 /* body */
 .content-home {
-    width: 80%;
+    width: 90%;
     padding: 1em;
     margin: 1em auto;
+    display: flex;
+    justify-content: center;
+}
+.judul {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px 8px;
 }
 /* foto */
-.foto {
+.foto-1 {
     background-image: url(./image/cumiKebo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 800px;
     height: 300px;
 }
